@@ -40,6 +40,8 @@ function verfTecla() {
     var teclaApertada = '!'
     var teclaApertadaNum = '!'
 
+    console.log(tecla)
+    
     //Símbolos
     if (tecla === 46 || tecla === 8){
         teclaApertada = 'c'
